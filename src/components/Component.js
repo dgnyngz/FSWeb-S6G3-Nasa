@@ -17,7 +17,16 @@ export default function Component(props) {
               <img className="foto" src={data.hdurl} width="40%"></img>
               <div className="row1yazi">
                 <div>
-                  ASTRONOMİ PİCTURE OF THE DAY-------DİSCOVER THE COSMOS
+                  ASTRONOMY PİCTURE OF THE DAY
+                  <hr
+                    style={{
+                      color: "#000000",
+                      backgroundColor: "#000000",
+                      height: 0.5,
+                      borderColor: "#000000",
+                    }}
+                  />
+                  DİSCOVER THE COSMOS
                 </div>
               </div>
             </div>
