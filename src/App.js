@@ -28,7 +28,7 @@ function App() {
       .finally(function() {
         // always executed
       });
-  }, []);
+  }, [datePicker]);
 
   return (
     <div className="App">
