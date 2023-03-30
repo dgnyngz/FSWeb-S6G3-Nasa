@@ -30,6 +30,13 @@ export default function Component(props) {
 
                 <div className="tarih">
                   <div className="tarihdiv"></div>
+                  <label htmlFor="apodData">Choose Date:</label>
+                  <input
+                    onChange={(e) => dateChangeHandler(e)}
+                    type="date"
+                    value={currentDate}
+                    name="apodDate"
+                  ></input>
                   {data.date}
                 </div>
               </div>
