@@ -10,7 +10,36 @@ export default function Component(props) {
 
   return (
     <div>
-      <p>{data.date}</p>
+      <div className="App-container">
+        <div className="rowsandcolumn">
+          <div className="rows">
+            <div className="first-row">
+              <img className="foto" src={data.hdurl} width="40%"></img>
+              <div className="row1yazi">
+                <div>
+                  ASTRONOMİ PİCTURE OF THE DAY-------DİSCOVER THE COSMOS
+                </div>
+              </div>
+            </div>
+            <div className="second-row">
+              <img className="row2foto" src={data.hdurl} width="40%"></img>
+              <div className="tarihveyazi">
+                <div className="yazi">
+                  <div className="ortadakiyazi">{data.title}</div>
+                </div>
+
+                <div className="tarih">
+                  <div className="tarihdiv"></div>
+                  {data.date}
+                </div>
+              </div>
+            </div>
+            <div className="third-row">row3</div>
+          </div>
+          <div className="sidecolumn">kolon</div>
+        </div>
+      </div>
+      {/*<p>{data.date}</p>
       <label htmlFor="apodData">apodData :</label>
       <input
         onChange={(e) => dateChangeHandler(e)}
@@ -23,8 +52,8 @@ export default function Component(props) {
       <p>{data.media_type}</p>
       <img src={data.hdurl} alt={data.title} width="500" height="500"></img>
       <p>{data.service_version}</p>
-      <p>{data.title}</p>
-      <p>{data.url}</p>
+      <p></p>
+      <p>{data.url}</p>*/}
     </div>
   );
 }

@@ -1,5 +1,74 @@
+* {
+  border: 1px solid rgb(245, 55, 22);
+}
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-container {
+  background-color: #282c34;
+}
+.rowsandcolumn {
+  display: flex;
+  height: 100vh;
+  width: 90vw;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+.rows {
+}
+.first-row {
+  height: 25vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.row1yazi {
+  display: flex;
+  align-items: center;
+  margin-right: 6vw;
+  font-size: 22px;
+}
+.second-row {
+  height: 35vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.tarih {
+  display: flex;
+  align-items: center;
+  width: 10vw;
+  justify-content: center;
+  margin-right: 10vw;
+  font-size: 20px;
+}
+.yazi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  font-size: 40px;
+}
+.tarihveyazi {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.ortadakiyazi {
+  display: flex;
+  align-content: center;
+}
+.third-row {
+  height: 25vh;
+  width: 70vw;
+}
+.sidecolumn {
+  height: 85vh;
+  width: 30vw;
 }
 
 .App-logo {
