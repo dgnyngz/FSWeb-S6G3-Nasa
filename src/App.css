@@ -1,17 +1,21 @@
 * {
-  border: 1px solid rgb(245, 55, 22);
+  border: 1px solid tomato;
 }
 .App {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 .App-container {
   margin: auto auto;
   margin-top: 5vh;
   height: 100vh;
   align-content: center;
+}
+.foto {
+  border-radius: 10px;
 }
 .rowsandcolumn {
   background-color: #282c34;
@@ -21,6 +25,7 @@
   align-items: center;
   margin: auto auto;
   display: flex;
+  border-radius: 10px;
 }
 .rows {
   margin-top: 0;
@@ -70,6 +75,8 @@
 .third-row {
   height: 25vh;
   width: 70vw;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .sidecolumn {
   height: 90vh;
@@ -79,6 +86,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.r3yazi {
+  margin: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

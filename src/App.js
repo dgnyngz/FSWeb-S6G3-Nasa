@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Component from "./components/Component";
 
 function App() {
-  const [apodData, setApodData] = useState();
+  const [apodData, setApodData] = useState({});
   const [datePicker, setDatePicker] = useState(
     new Date("2021-06-11").toISOString().slice(0, 10)
   );
@@ -31,7 +31,7 @@ function App() {
   }, [datePicker]);
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${apodData.hdurl})` }}>
       <Component
         data={apodData}
         dateChange={setDatePicker}

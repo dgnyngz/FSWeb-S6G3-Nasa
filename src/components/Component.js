@@ -22,7 +22,7 @@ export default function Component(props) {
               </div>
             </div>
             <div className="second-row">
-              <img className="row2foto" src={data.hdurl} width="40%"></img>
+              <img className="foto" src={data.hdurl} width="40%"></img>
               <div className="tarihveyazi">
                 <div className="yazi">
                   <div className="ortadakiyazi">{data.title}</div>
@@ -34,7 +34,12 @@ export default function Component(props) {
                 </div>
               </div>
             </div>
-            <div className="third-row">row3</div>
+            <div className="third-row">
+              <img className="foto" src={data.hdurl} width="40%"></img>
+              <div className="r3yazi">
+                Apod.nasa.gov&#169;-all rights reserved
+              </div>
+            </div>
           </div>
           <div className="sidecolumn">kolon</div>
         </div>
