@@ -53,7 +53,7 @@ export default function Component(props) {
             <div className="third-row">
               <img className="foto" src={data.hdurl} width="40%"></img>
               <div className="r3yazi">
-                Apod.nasa.gov&#169;-all rights reserved
+                Apod.nasa.gov&#169;-all rights reserved -- Thomas Bouvier
               </div>
             </div>
           </div>
