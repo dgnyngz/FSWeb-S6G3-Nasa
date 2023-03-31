@@ -57,7 +57,23 @@ export default function Component(props) {
               </div>
             </div>
           </div>
-          <div className="sidecolumn">kolon</div>
+          <div className="sidecolumn">
+            <div className="isim">
+              <div className="isim2"> Doğan Yangöz</div>
+            </div>
+            <div className="social">
+              <div className="social2">
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a
+                  href="https://www.instagram.com/doganyangoz/"
+                  target="_blank"
+                >
+                  İnstagram
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/*<p>{data.date}</p>
